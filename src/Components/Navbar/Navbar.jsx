@@ -27,7 +27,7 @@ const Navbar = () => {
                 <img className='icons' src={bell_icon} alt="" />
                 <div className="navbar-profile">
                     <img className='profile' src={profile_img} alt="" />
-                    <img className='icons' src={caret_icon} alt="" />
+                    <img src={caret_icon} alt="" />
                 </div>
             </div>
         </div>
