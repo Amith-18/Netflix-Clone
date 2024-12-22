@@ -10,3 +10,22 @@
     z-index: 1;
     
 }
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar-left img{
+    width: 90px;
+}
+
+.navbar-left ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+.navbar-left ul li{
+    cursor: pointer;
+}
