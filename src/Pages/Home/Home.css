@@ -50,3 +50,16 @@
     border-radius: 4px;
     cursor: pointer;
 }
+
+.hero-btn .btn.dark-btn{
+    color: #fff;
+    background: #6d6d6eb3;
+}
+
+.hero-btn .btn:hover{
+    background: #ffffffbf;
+}
+
+.hero-btn .btn.dark-btn:hover{
+    background: #6d6d6e66;
+}
