@@ -10,7 +10,7 @@ const Footer = () => {
     <div className='footer'>
       <div className="footer-icons">
         <img src={youtube_icon} alt="" />
-        <img src={x_icon} alt="" />
+        <img className='x' src={x_icon} alt="" />
         <img src={facebook_icon} alt="" />
         <img src={instagram_icon} alt="" />
       </div>
