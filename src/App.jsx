@@ -1,12 +1,17 @@
 import React from 'react'
 import Home from './Pages/Home/Home'
-import TitleCard from './Components/TitleCards/TitleCard'
-import Footer from './Components/Footer/Footer'
+import { Routes, Route } from 'react-router-dom'
+import login from './Pages/Login/Login'
+import Login from './Pages/Login/Login'
 
 const App = () => {
   return (
     <div>
-      <Home/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/login' element={<Login/>}/>
+      </Routes>
+      
     </div>
   )
 }
