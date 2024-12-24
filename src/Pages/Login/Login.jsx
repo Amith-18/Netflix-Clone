@@ -8,28 +8,31 @@ const Login = () => {
 
   return (
     <div className='login'>
-        <img className='login-logo' src={logo} alt="" />
-        <div className="login-form">
-          <h1>{signState}</h1>
-          <form>
-            {signState ==='Sign Up'?<input type="text"  placeholder='Your Name'/>:""}
-            
-            <input type="email"  placeholder='Email'/>
-            <input type="password"  placeholder='Password'/>
-            <button>Sign Up</button>
-            <div className="form-help">
-              <div className="remember">
-                <input type="checkbox" />
-                <label htmlFor="">Remember Me</label>
-              </div>
-              <p>Need Help?</p>
+      <img className='login-logo' src={logo} alt="" />
+      <div className="login-form">
+        <h1>{signState}</h1>
+        <form>
+          {signState === 'Sign Up' ? <input type="text" placeholder='Your Name' /> : <></>}
+
+          <input type="email" placeholder='Email' />
+          <input type="password" placeholder='Password' />
+          <button>Sign Up</button>
+          <div className="form-help">
+            <div className="remember">
+              <input type="checkbox" />
+              <label htmlFor="">Remember Me</label>
             </div>
-          </form>
-          <div className="form-switch">
-            <p>New To Netflix? <span>Sign Up</span></p>
-            <p>Already have account <span>Sign In</span></p>
+            <p>Need Help?</p>
           </div>
+        </form>
+        <div className="form-switch">
+          {signState === 'Sign In' ?
+            <p>New To Netflix? <span>Sign Up</span></p>
+            :
+            <p>Already have account <span>Sign In</span></p>
+          }
         </div>
+      </div>
     </div>
   )
 }
