@@ -36,3 +36,20 @@
     font-size: 16px;
     font-weight: 500;
 }
+
+.login-form input::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.login-form button{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 16px;
+    background: #e50914;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
