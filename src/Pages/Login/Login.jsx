@@ -22,8 +22,8 @@ const Login = () => {
             </div>
           </form>
           <div className="form-switch">
-            <p>New To Netflix? <span>Sign Up Now</span></p>
-            <p>Already have account <span>Sign In Now</span></p>
+            <p>New To Netflix? <span>Sign Up</span></p>
+            <p>Already have account <span>Sign In</span></p>
           </div>
         </div>
     </div>
